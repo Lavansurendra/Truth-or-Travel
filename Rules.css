@@ -4,6 +4,14 @@
 	box-sizing: border-box;
 	}
 
+.btn-red{
+    text-align: center; background-color:#F9D3D1; padding: 20px; box-sizing: content-box; font-size: 25px; font-family: 'Open Sans', sans-serif; text-decoration: none; color: black;
+}
+
+.btn-red:hover{
+    background-color: #E85952;
+}
+
 #section{
  	background-color: #ff6b84;
 	height: 25vh;

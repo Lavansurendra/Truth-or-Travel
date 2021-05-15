@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <script src="food.js"></script>
+    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Truth or Travel</title>
+</head>
+
+<body style="background-color: #D1F6F9;">
+    <div class="navbar">
+        <a href="Rules.html">Rules</a>
+    </div>
+    <h1 class="question" id="ctn-x"> What do you enjoy exploring?</h1>
+    <div style="position: relative; top: 50px; height: 1000px; align-items: center;">
+    <select name="Chose Type" id="htmlChoose" class="drp-red" style="position:relative; left: 45%; top: 100px;">
+        <option value="hiking">Trails</option>
+        <option value="footpath"> Food</option>
+    </select>
+        <a href="#ctn-1" style="position:relative; top: 400px; left: 40%;" class="btn-red">Next</a>
+    </div>
+    <h1 class="question" id="ctn-1"> What is your favourite kind of adventure?</h1>
+    <div style="position: relative; top: 50px; height: 1000px; align-items: center;">
+        <select name="Choose Trails" id="htmlTrail" class="drp-red"
+            style="position:relative; left: 45%; top: 100px;">
+            <option value="hiking">Hiking</option>
+            <option value="footpath"> Footpath</option>
+            <option value="naturalTrail">Nature Trails</option>
+            <option value="forestExplorations">Forest Exploration</option>
+        </select>
+        <a href="#ctn-2" style="position:relative; top: 400px; left: 35%;" class="btn-red">Next</a>
+    </div>
+    <h1 class="question" id ="ctn-2">What is your favourite kind of cuisine?</h1>
+    <div style="position: relative; top: 50px; height: 1000px; align-items: center;">
+
+        <select id=htmlFood class="drp-red" style="position:relative; left: 45%; top: 100px;">
+            <option value="southAsian">South Asian</option>
+            <option value="asian">Asian</option>
+            <option value="mediterranean">Mediterranean</option>
+            <option value="european">European</option>
+            <option value="northAmerican">North American</option>
+            <option value="caribbean">Caribbean</option>
+            <option value="vietnamese">Vietnamese</option>
+            <option value="italian">Italian</option>
+            <option value="japanese">Japanese</option>
+        </select>
+        <a href="#ctn-3" style="position:relative; top: 400px; left: 35%;" class="btn-red">Next</a>
+    </div>
+    <h1 class="question"  id="ctn-3" style="top: 100px;">Do you like to try new things?</h1>
+
+    <div style="position: relative; top: 50px; height: 1000px; align-items: center;">
+        <select id="comfortLevel" class="drp-red" style="position:relative; left: 45%; top: 100px;">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <a style="position:relative; top: 400px; left: 40%;" onclick="dare1()" class="btn-red">Submit</a>
+    </div>
+    <div id="dare1"></div>
+    <div id="dare2"></div>
+    <div id="dare3"></div>
+    <div id="dare4"></div>
+</body>
+
+</html>
